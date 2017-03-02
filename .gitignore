@@ -1,0 +1,30 @@
+
+### Eclipse ###
+.settings/
+.project
+
+
+### Intellij ###
+
+.idea/
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+ *.iml
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
