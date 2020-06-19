@@ -11,7 +11,7 @@ Reference http://www.codeproject.com/Articles/56138/Consistent-hashing
         MyServiceNode node4 = new MyServiceNode("IDC1","127.0.0.1",8084);
 
         //hash them to hash ring
-        ConsistentHashRouter<MyServiceNode> consistentHashRouter = new ConsistentHashRouter<>(Arrays.asList(node1,node2,node3,node4),10);//10 virtual node
+        ConsistentHashRouter<MyServiceNode> consistentHashRouter = new ConsistentHashRouter<>(Arrays.asList(node1,node2,node3,node4),10);//10 virtual nodes
 
         String requestIp = "192.168.0.1";
         System.out.println(requestIp + " is route to " + consistentHashRouter.routeNode(requestIp));
@@ -52,12 +52,12 @@ By default , `ConsistentHashRouter` will use MD5 to hash a node, you may specify
         MyServiceNode node4 = new MyServiceNode("IDC1","127.0.0.1",8084);
 
         //把节点哈希到哈希环中
-        ConsistentHashRouter<MyServiceNode> consistentHashRouter = new ConsistentHashRouter<>(Arrays.asList(node1,node2,node3,node4),10);//10 virtual node
+        ConsistentHashRouter<MyServiceNode> consistentHashRouter = new ConsistentHashRouter<>(Arrays.asList(node1,node2,node3,node4),10);//10个虚拟节点
 
         String requestIp = "192.168.0.1";
         System.out.println(requestIp + " is route to " + consistentHashRouter.routeNode(requestIp));
 
-  更多的使用的实例请参看： `MyServiceNode.java` for more details
+  更多的使用的实例请参看： `MyServiceNode.java`
 
 
 
