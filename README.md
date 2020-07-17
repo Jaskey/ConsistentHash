@@ -78,3 +78,7 @@ By default , `ConsistentHashRouter` will use MD5 to hash a node, you may specify
 
 
 
+## 联系作者
+
+- 类库需要新功能支持或有问题反馈请提ISSUE
+- 作者邮箱：linjunjie1103@gmail.com
