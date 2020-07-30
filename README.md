@@ -37,6 +37,12 @@ When adding new `Node` to the `ConsistentHashRouter`, you can specify how many v
 By default , `ConsistentHashRouter` will use MD5 to hash a node, you may specify your custom hash function by implementing `HashFunction`
 
 
+### Contact Author
+
+For any question or feature required, please post a Github issue directly.
+
+To contact author, please mail to linjunjie1103@gmail.com
+
 ----------------------------------------------------------------------------------------------
 
 # Java 实现的一致性哈希 
