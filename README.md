@@ -16,7 +16,7 @@ Reference http://www.codeproject.com/Articles/56138/Consistent-hashing
         String requestIp = "192.168.0.1";
         System.out.println(requestIp + " is route to " + consistentHashRouter.routeNode(requestIp));
 
-  check sameple of `MyServiceNode.java` for more details
+  Please see `MyServiceNode.java` for more usage details
 
 
 
@@ -37,7 +37,7 @@ When adding new `Node` to the `ConsistentHashRouter`, you can specify how many v
 By default , `ConsistentHashRouter` will use MD5 to hash a node, you may specify your custom hash function by implementing `HashFunction`
 
 
-### Contact Author
+## Contact Author
 
 For any question or feature required, please post a Github issue directly.
 
